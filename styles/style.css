@@ -62,6 +62,7 @@
   line-height: 24.3px;
   letter-spacing: 0.01em;
   text-align: left;
+  text-underline-position: under;
 }
 
 .cover {
@@ -165,7 +166,6 @@ h1 {
   border: 1px solid white;
   color: white;
   font-size: 22px;
-  line-height: 25.83px;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
@@ -179,7 +179,6 @@ h1 {
   padding-left: 40px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
   text-align: left;
   text-transform: uppercase;
 }
@@ -237,7 +236,6 @@ h1 {
   color: white;
   font-weight: bold;
   font-size: 22px;
-  line-height: 26.4px;
   text-align: left;
   text-decoration: underline;
   text-transform: uppercase;
@@ -255,7 +253,6 @@ h1 {
   margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 23.48px;
   text-align: left;
   text-decoration: underline;
   text-underline-position: under;
