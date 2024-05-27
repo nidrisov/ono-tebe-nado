@@ -1,23 +1,23 @@
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   flex-direction: row;
   justify-content: space-between;
   padding: 92px 24px 96px;
 }
 
 .header__menu {
-  width: 391.48px;
+  padding: 44px 26px 40px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
 
 .header__links-list {
   display: flex;
-  flex-grow: 1;
   justify-content: space-between;
-  align-items: center;
+  align-self: center;
+  gap: 32px;
   flex-direction: row;
   list-style: circle;
 }
@@ -28,6 +28,9 @@
 
 .header__link {
   text-decoration: underline;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.01em;
 }
 
 .header__link_active {
@@ -35,17 +38,29 @@
 }
 
 .header__logo {
-  flex-grow: 0;
+  display: block;
+  height: 105px;
+  width: 148px;
+  align-self: center;
 }
 
 .header__logo-image {
-  width: 148px;
-  height: 105px;
+ height: 100%;
+}
+
+.header__address {
+  padding-top: 5px;
+  padding-right: 26px;
+  justify-self: right;
 }
 
 .address {
+  width: 240px;
+  font-size: 18px;
   font-style: normal;
-  width: 237px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  line-height: 24.3px;
 }
 
 .cover {
