@@ -65,6 +65,8 @@
 }
 
 .cover {
+  position: relative;
+  z-index:0;
   width: 100%;
   height: 757px;
   background-image: url(/images/cover.jpg);
@@ -72,8 +74,16 @@
   background-size: cover;
 }
 
-/* .overlay {  TODO 
-}  */
+.overlay { 
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  display: block;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.6);
+}
 
 .cover__title {
   display: flex;
@@ -210,6 +220,8 @@ h1 {
 }
 
 .lots__card-list-item {
+  position: relative;
+  z-index:0;
   height: 563px;
   padding: 51px 40px 48px;
 }
