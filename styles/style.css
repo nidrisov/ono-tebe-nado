@@ -249,6 +249,10 @@ h1 {
   text-align: left;
 }
 
+.letter-spacing-13 {
+  letter-spacing: 0.13em;
+}
+
 .lots__look-more-link {
   margin-left: 40px;
   font-weight: 400;
