@@ -46,7 +46,7 @@
 }
 
 .header__logo-image {
- height: 100%;
+  height: 100%;
 }
 
 .header__address {
@@ -66,7 +66,7 @@
 
 .cover {
   position: relative;
-  z-index:0;
+  z-index: 0;
   width: 100%;
   height: 757px;
   background-image: url(/images/cover.jpg);
@@ -74,15 +74,15 @@
   background-size: cover;
 }
 
-.overlay { 
+.overlay {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: -1;
   display: block;
-  width:100%;
-  height:100%;
-  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
@@ -221,7 +221,7 @@ h1 {
 
 .lots__card-list-item {
   position: relative;
-  z-index:0;
+  z-index: 0;
   height: 563px;
   padding: 51px 40px 48px;
 }
@@ -266,8 +266,8 @@ h1 {
   grid-template-columns: 240px 1fr;
   grid-template-rows: 240px 1fr;
   grid-template-areas:
-  "about__logo about__title"
-  ". about__description";
+    "about__logo about__title"
+    ". about__description";
   gap: 8px 72px;
   margin: 148px 24px 0;
   padding: 35px 0 0 47px;
