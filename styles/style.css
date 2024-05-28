@@ -34,6 +34,10 @@
   text-underline-position: under;
 }
 
+.header__links-list-item:hover {
+  color: pink;
+}
+
 .header__link_active {
   text-decoration: none;
 }
@@ -157,6 +161,10 @@ h1 {
   background-color: transparent;
 }
 
+.bet-button:hover {
+  color: pink;
+}
+
 .lots {
   margin: 179px 24px 0;
 }
@@ -234,6 +242,10 @@ h1 {
   text-underline-position: under;
 }
 
+.lots__look-more-link:hover {
+  color: pink;
+}
+
 .about {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -303,6 +315,10 @@ h1 {
   line-height: 21.13px;
   text-align: center;
   list-style: none;
+}
+
+.footer__menu-list-item:hover {
+  color: pink;
 }
 
 .footer__menu-link {
